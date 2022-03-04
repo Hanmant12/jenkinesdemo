@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table>
+<tr th:each="fe:${frm}">
+<td th:utext="${fe.rid}"></td>
+<td th:utext="${fe.name}"></td>
+</tr>
+</table>
+</body>
+</html>
